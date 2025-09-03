@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+header{
+    background-color: gainsboro;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+.logo{
+   height: 130px;
+   width: 250px;
+}
+ul{
+    display: flex;
+    gap: 3vmin;
+    font-size: 3vmin;
+}
+a{
+    color: rgb(11, 11, 102);
+}
+
+.main{
+    background-image: url("https://tentcomm.com/wp-content/uploads/2024/10/1300x650-x1.5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+
+}
+.sub_div{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 150px;
+    padding-top: 50px;
+    
+}
+@media (max-width:600px) {
+    .sub_div{
+    padding-right: 150px;
+    }
+}
+.sub_div h2{
+    color: rgb(11, 11, 102);
+    font-size: 6vmin;
+    
+}
+.sub_div h1{
+    color: rgb(11, 11, 102);
+    font-size: 12vmin;
+    line-break: 5px;
+}
+
+.custom-one{
+    background-color: rgb(11, 11, 102);
+    height: 40px;
+    width: 150px;
+    color: white;
+    border: 1px rgb(11, 11, 102);
+    border-radius: 20px;
+    font-size: 2vmin;
+    transition: 0.3s ease-in-out;
+}
+.custom-one:hover{
+    transform: scale(1.2);
+    background-color: grey;
+    color: rgb(11, 11, 102);
+  
+}
+.custom-two{
+    background-color: grey;
+    height: 40px;
+    width: 150px;
+    color: rgb(11, 11, 102);
+    border: 1px grey;
+    border-radius: 20px;
+    font-size: 2vmin;
+    margin-left: 20px;
+  
+    transition: 0.3s ease-in-out;
+}
+.custom-two:hover{
+    transform: scale(1.2);
+    background-color: rgb(11, 11, 102);
+    color: white;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.sub-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.second-section{
+    display: flex;
+    height: 100%;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+@media (max-width:600px) {
+    .second-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .another-div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.random-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* width: 50%; */
+}
+.custom-three{
+     background-color: rgb(11, 11, 102);
+    height: 40px;
+    width: 150px;
+    color: white;
+    border: 1px rgb(11, 11, 102);
+    border-radius: 5px;
+    font-size: 2vmin;
+    transition: 0.3s ease-in-out;
+
+}
+.custom-three:hover{
+    transform: scale(1.2);
+}
+.random-img{
+    height: 400px;
+    width: 500px;
+    transition: 1s ease-in-out;
+}
+.random-img:hover{
+    transform: scale(0.96);
+}
+.colorful-div{
+    display: flex;
+    background-color: aliceblue;
+    height: 200px;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+}
+@media (max-width:600px) {
+    .colorful-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .other-div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.custom-four{
+     background-color: rgb(11, 11, 102);
+    height: 40px;
+    width: 200px;
+    color: white;
+    border: 1px rgb(11, 11, 102);
+    border-radius: 5px;
+    font-size: 1.5vmin;
+    transition: 0.3s ease-in-out;
+
+}
+.custom-four:hover{
+    transform: scale(1.2);
+}
+.team{
+    width: 100vw;
+    display: flex;
+  flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.team-people{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 0 auto;
+}
+.person-img{
+    height: 400px;
+    width: 400px;
+}
+.fourth-person{
+    padding-bottom: 72px;
+}
+.fifth-person{
+    padding-bottom: 72px;
+}
+.sixth-person{
+    padding-bottom: 72px;
+}
+.team h2{
+    font-size: 4vmin;
+}
+.team-button{
+    background-color: rgb(11, 11, 102);
+    height: 40px;
+    width: 200px;
+    color: white;
+    border: 1px rgb(11, 11, 102);
+    border-radius: 5px;
+    font-size: 1.5vmin;
+    transition: 0.3s ease-in-out;
+    
+
+}
+.team-button:hover{
+    transform: scale(1.2);
+}
+.another-div{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.written-div{
+    /* width: 50%; */
+    margin-left: 100px;
+}
+.written-div h1{
+    font-size: 8vmin;
+}
+.working-img{
+    height: 400px;
+    width: 550px;
+}
+.client-review{
+    background-color: whitesmoke;
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.client-comment{
+    display: flex;
+    gap: 40px;
+}
+.client-details{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.logo-picture{
+    height: 100px;
+    width: 100px;
+    padding-bottom: 30px;
+}
+.other-div{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.reason-div{
+    /* width: 50%; */
+    margin-left: 100px;
+
+}
+.meeting-img{
+    height: 400px;
+    width: 550px;
+}
+.other-div h1{
+    font-size: 8vmin;
+}
+.last-div{
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+@media (max-width:600px) {
+    .last-div{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .contact-div{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 250px;
+    }
+    .communication-div{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin-right: 250px;
+       
+        
+    }
+    .location-div{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        margin-right: 170px;
+        
+    }
+    .logo-div{
+         margin-top: 500px; 
+      
+    }
+
+    .chittagong-div{
+      margin-right: 50px;
+    }
+    .uk-div{
+        margin-right: 20px;
+    }
+    .sylhet-div{
+        margin-right: 120px;
+        margin-bottom: 30px;
+    }
+    .line-div{
+        width: 10px;
+    }
+}
+@media (min-width:600px) {
+    .logo-div{
+        padding-bottom: 150px;
+    }
+}
+.last-img{
+    width: 300px;
+    height: 150px;
+}
+.contact-div{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.communication-div{
+    display: flex;
+    
+    gap: 50px;
+}
+.line-div{
+    background-color: rgb(11, 11, 102);
+    height: 2px;
+    width: 90%;
+    
+}
+.location-div{
+    display: flex;
+    gap: 50px;
+}
+.last-button{
+    background-color: gainsboro;
+    border: 2px black;
+    height: 30px;
+    width: 150px;
+    font-size: 2vmin;
+    transition: 0.3s ease in ease-in-out;
+}
+.last-button:hover{
+    background-color: gray;
+    color: white;
+}
+.firstcustom-icon{
+    background-color: gainsboro;
+    color: black;
+    display: flex;
+    height: 20px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px black;
+    padding: 7px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+.firstcustom-icon:hover{
+    color: rgb(11, 11, 102);
+   background-color: aliceblue;
+}
+.secondcustom-icon{
+    background-color: gainsboro;
+    color: black;
+    display: flex;
+    height: 20px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px black;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+.secondcustom-icon:hover{
+    color: rgb(11, 11, 102);
+   background-color: aliceblue;
+}
+.thirdcustom-icon{
+    background-color: gainsboro;
+    color: black;
+    display: flex;
+    height: 20px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px black;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+.thirdcustom-icon:hover{
+    color: rgb(11, 11, 102);
+   background-color: aliceblue;
+}
+.fourthcustom-icon{
+    background-color: gainsboro;
+    color: black;
+    display: flex;
+    font-size: 15px;
+    height: 20px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px black;
+   padding: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+.fourthcustom-icon:hover{
+    color: rgb(11, 11, 102);
+   background-color: aliceblue;
+}
+.fifthcustom-icon{
+    background-color: gainsboro;
+    color: black;
+    display: flex;
+    height: 20px;
+    width: 70px;
+    border-radius: 50%;
+    border-: 2px black;
+    padding: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+.fifthcustom-icon:hover{
+    color: rgb(11, 11, 102);
+   background-color: aliceblue;
+}
